@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="stylesheet" href="font-awesome(4.7.0)/css/font-awesome.min.css">
+
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="content-width">
+        <nav class="navbar">
+            <a href="" class="logo">Solace<span>.</span></a>
+
+            <!-- menu button -->
+            <button class="menu-btn" id="menu-btn">
+                <i class="fa fa-bars"></i>
+            </button>
+
+
+            <div class="links-container" id="links-container">
+                <a href="#collection" class="links">Collection</a>
+                <a href="#about" class="links">About</a>
+                <a href="#contact" class="links">Contact</a>
+            </div>
+        </nav>
+    </div>
+
+    <header>
+        <div class="content-width">
+            <div class="header-grid">
+                <div class="left">
+                    <p class="p1">Solace Footwear</p>
+                    <h1>Walk easy. Look sharp. Go further.</h1>
+                    <p class="p2">Solace makes comfortable, well-built shoes for everyday life in the city: from morning
+                        commutes to weekend plans. Pick your pair and order in minutes on WhatsApp. </p>
+                    <a href="" class="cta">Explore Collection</a>
+                </div>
+                <div class="right">
+                    <img src="img/Play-with-lights-shoe-photography-1024x554.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="collection">
+        <div class="content-width">
+            <h2>The Collection</h2>
+
+            <p class="p2">Eight everyday styles in sizes 38 to 46. Filter by category or size, then tap a pair to see
+                details.</p>
+
+            <div class="filters" id="filters"></div>
+            <div class="grid" id="shoe-grid"></div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="content-width">
+            <div class="grid">
+                <div>
+                    <p class="p1">Solace Footwear</p>
+                    <h2>Shoes that keep up with you.</h2>
+                    <p class="p2">Solace started with one idea: good shoes should not cost a fortune or fall apart in a
+                        season. We choose durable materials, test every style for all-day comfort, and sell directly so
+                        you get honest prices.</p>
+                </div>
+                <div class="feat-con">
+                    <div class="feat">
+                        <h3>Built to last</h3>
+                        <p>Reinforced stitching and hard-wearing soles on every pair.</p>
+                    </div>
+                    <div class="feat">
+                        <h3>Built to last</h3>
+                        <p>Reinforced stitching and hard-wearing soles on every pair.</p>
+                    </div>
+                    <div class="feat">
+                        <h3>Built to last</h3>
+                        <p>Reinforced stitching and hard-wearing soles on every pair.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content-width">
+            <h2>Ready to order?</h2>
+            <p class="p2">Message us on WhatsApp and we will confirm your size, delivery and payment.</p>
+
+            <a href="" class="cta">Chat on WhatsApp</a>
+
+            <div class="contact">
+                <a href="https://wa.me/234XXXXXXXXXX?text=Hi%20Solace%2C%20I%20have%20a%20question%20about%20your%20shoes.">
+                    <small>WhatsApp</small>
+                    [+234 XXX XXX XXXX]
+                </a>
+                <a href="https://wa.me/234XXXXXXXXXX?text=Hi%20Solace%2C%20I%20have%20a%20question%20about%20your%20shoes.">
+                    <small>WhatsApp</small>
+                    [+234 XXX XXX XXXX]
+                </a>
+                <a href="https://wa.me/234XXXXXXXXXX?text=Hi%20Solace%2C%20I%20have%20a%20question%20about%20your%20shoes.">
+                    <small>WhatsApp</small>
+                    [+234 XXX XXX XXXX]
+                </a>
+                <a href="https://wa.me/234XXXXXXXXXX?text=Hi%20Solace%2C%20I%20have%20a%20question%20about%20your%20shoes.">
+                    <small>WhatsApp</small>
+                    [+234 XXX XXX XXXX]
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="content-width">
+            <p>&copy; 2026 Solace Footwear. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal-backdrop" id="modal-backdrop" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-name">
+            <button class="close-modal" id="close-modal" type="button" aria-label="Close">×</button>
+
+            <div class="modal-grid">
+                <div class="modal-visual">
+                    <img src="img/shoe picture.webp" alt="Selected shoe" id="modal-image">
+                </div>
+
+                <div class="modal-info">
+                    <p class="p1 modal-category" id="modal-category">Sneakers</p>
+                    <h3 class="modal-name" id="modal-name">Unity Court</h3>
+                    <p class="modal-price" id="modal-price">₦52,000</p>
+                    <p class="modal-description" id="modal-description">Clean court-style sneakers in soft leather.</p>
+
+                    <div>
+                        <span class="modal-label">Preferred size</span>
+                        <div class="size-options" id="size-options"></div>
+                    </div>
+
+                    <div>
+                        <span class="modal-label">Quantity</span>
+                        <div class="qty-controls">
+                            <button class="qty-btn" type="button" data-action="decrease" aria-label="Decrease quantity">−</button>
+                            <span class="qty-value" id="qty-value">1</span>
+                            <button class="qty-btn" type="button" data-action="increase" aria-label="Increase quantity">+</button>
+                        </div>
+                    </div>
+
+                    <p class="modal-total">Total: <span id="modal-total">₦52,000</span></p>
+
+                    <a href="#" class="cta modal-order" id="order-whatsapp" aria-disabled="true">Order via WhatsApp</a>
+                    <p class="modal-hint" id="modal-hint">Choose a size to continue.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

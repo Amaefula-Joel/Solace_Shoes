@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../student_portfolio"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "student_shoe_site"
+	}
+}
