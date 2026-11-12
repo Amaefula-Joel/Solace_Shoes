@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Inter, sans-serif;
-  transition: background-color color 0.3s;
+  transition: background-color, color 0.3s;
 }
 
 :root {
@@ -458,6 +458,15 @@ header .right img{
 #collection .card {
   border: 2px solid var(--line);
   background-color: var(--card);
+}
+#collection .card .top {
+  background-color: var(--bg);
+}
+#collection .card .top img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
 }
 
 #collection .card .body {

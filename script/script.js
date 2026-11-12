@@ -20,16 +20,16 @@ menu_bth.addEventListener('click', function () {
 const shoes = [
     {
         id: 1,
-        name: 'Ikoyi Loafer',
+        name: 'Formal 1',
         category: 'Formal',
         price: 55000,
-        image: 'img/shoe picture.webp',
+        image: 'img/formal 1.webp',
         sizes: [40, 41, 42, 43, 44, 45],
         description: 'Polished leather loafers with a padded footbed. A staple for meetings, weddings and Sundays.'
     },
     {
         id: 2,
-        name: 'Lekki Runner',
+        name: 'Sneakers 1',
         category: 'Sneakers',
         price: 62000,
         image: 'img/shoe picture.webp',
@@ -38,37 +38,37 @@ const shoes = [
     },
     {
         id: 3,
-        name: 'Yaba Trail',
+        name: 'Boots 1',
         category: 'Boots',
         price: 71000,
-        image: 'img/shoe picture.webp',
+        image: 'img/boot 1.avif',
         sizes: [41, 42, 43, 44, 45, 46],
         description: 'Rugged lace-up boots with a grippy tread for rough roads and weekend trips.'
     },
     {
         id: 4,
-        name: 'Surulere Court',
+        name: 'Sneakers 2',
         category: 'Sneakers',
         price: 68000,
-        image: 'img/shoe picture.webp',
+        image: 'img/sneaker 1.jpg',
         sizes: [39, 40, 41, 42, 43, 44],
         description: 'Clean court-style sneakers in soft leather. Easy to pair with jeans or a native outfit.'
     },
     {
         id: 5,
-        name: 'Victoria Walk',
+        name: 'Formai 2',
         category: 'Formal',
         price: 59000,
-        image: 'img/shoe picture.webp',
+        image: 'img/formal 2.webp',
         sizes: [40, 41, 42, 43, 44, 45],
         description: 'Elegant everyday formal shoes designed for workdays, events, and polished comfort.'
     },
     {
         id: 6,
-        name: 'Maitama Hike',
+        name: 'Boots 2',
         category: 'Boots',
         price: 76000,
-        image: 'img/shoe picture.webp',
+        image: 'img/boot 2.webp',
         sizes: [42, 43, 44, 45, 46],
         description: 'Strong, durable boots built for movement, weather, and long days across town.'
     }
@@ -245,7 +245,7 @@ function updateModal() {
     if (selectedSize) {
         modalHint.textContent = 'Your order is ready to send.';
         orderWhatsapp.setAttribute('aria-disabled', 'false');
-        orderWhatsapp.href = `https://wa.me/234XXXXXXXXXX?text=${encodeURIComponent(
+        orderWhatsapp.href = `https://wa.me/2348124787574?text=${encodeURIComponent(
             `Hi Solace, I would like to order: ${activeShoe.name}, size ${selectedSize}, quantity ${quantity}. Total: ₦${total.toLocaleString()}.`
         )}`;
     } else {
