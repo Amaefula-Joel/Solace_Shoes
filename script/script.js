@@ -245,8 +245,8 @@ function updateModal() {
     if (selectedSize) {
         modalHint.textContent = 'Your order is ready to send.';
         orderWhatsapp.setAttribute('aria-disabled', 'false');
-        orderWhatsapp.href = `https://wa.me/2348124787574?text=${encodeURIComponent(
-            `Hi Solace, I would like to order: ${activeShoe.name}, size ${selectedSize}, quantity ${quantity}. Total: ₦${total.toLocaleString()}.`
+        orderWhatsapp.href = `https://wa.me/2348124880476?text=${encodeURIComponent(
+            `Hi Jefe Kicks, I would like to order: ${activeShoe.name}, size ${selectedSize}, quantity ${quantity}. Total: ₦${total.toLocaleString()}.`
         )}`;
     } else {
         modalHint.textContent = 'Choose a size to continue.';
